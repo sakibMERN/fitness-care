@@ -41,6 +41,7 @@ body {
     rgba(119, 119, 119, 0.3) 100%
   );
   padding-top: 57px;
+  margin-bottom: 100px;
 }
 
 /* Nav section start  */
@@ -186,3 +187,69 @@ nav .brand {
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.65);
 }
+
+/* Banner section end  */
+
+/* Habit section start  */
+
+.habit{
+  max-width: 73%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.habit-content{
+  max-width: 671px;
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+.habit-title{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.habit-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  line-height: 175%;
+  text-align: center;
+}
+
+.features{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.feature-box{
+  width: 231px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feature-img{
+  width: 180px;
+  height: 180px;
+  margin-bottom: 30px;
+  
+}
+.feature-img img{
+  width: 100%;
+  border-radius: 100%;
+}
+.feature-title{
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.feature-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+

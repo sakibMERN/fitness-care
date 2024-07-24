@@ -6,7 +6,8 @@
         margin: 0;
     }
     .banner{
-        flex-direction: column;padding-left: 5px;
+        flex-direction: column;
+        padding-left: 5px;
     }
     #vanish{
         display: none;
@@ -26,9 +27,6 @@
     }
     .hamburger{
         display: block;
-    }
-    .banner-img{
-        /* text-align: end; */justify-content: end;
     }
     .box-1{
        left: 32px; 
