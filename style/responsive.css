@@ -1,0 +1,40 @@
+@media screen and (max-width:576px) {
+    header{
+        padding: 0 20px;
+    }
+    nav,.banner{
+        margin: 0;
+    }
+    .banner{
+        flex-direction: column;padding-left: 5px;
+    }
+    #vanish{
+        display: none;
+    }
+    .btn-primary {
+        color: #ffffff;
+        font-size: 1.125rem;
+        font-weight: 600;
+        line-height: 24px;
+        padding: 16px 40px;
+        background: rgb(230, 83, 60);
+        border: none;
+        border-radius: 42px;
+      }
+    .nav-list{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .banner-img{
+        /* text-align: end; */justify-content: end;
+    }
+    .box-1{
+       left: 32px; 
+       bottom: 250px;
+    }
+    .box-2{
+        bottom:  420px;
+    }
+}

@@ -1,3 +1,188 @@
-h1{
-    color: red;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Common font family */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+/* Common properties for body element  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Common background-color for body  */
+body {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+}
+/* Common primary button  */
+
+.btn-primary {
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 16px 40px;
+  background: rgb(230, 83, 60);
+  border: none;
+  border-radius: 42px;
+}
+/* Header section start here  */
+.container {
+  background: linear-gradient(
+    0deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0.3) 100%
+  );
+  padding-top: 57px;
+}
+
+/* Nav section start  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 74%;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+nav .brand {
+  color: rgb(230, 83, 60);
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 120%;
+}
+.nav-links {
+  display: flex;
+  padding: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.nav-list {
+  display: flex;
+  gap: 47px;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-item a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #ffffff;
+  padding: 8px 20px;
+  border-radius: 46px;
+}
+.nav-list .highlight {
+  background: rgb(230, 83, 60);
+}
+.nav-item a:hover:not(.highlight) {
+  color: black;
+  background-color: #fff;
+}
+.hamburger {
+  display: none;
+  width: 20px;
+  border: 3px solid yellow;
+  color: #ffffff;
+}
+/* Nav section end  */
+
+/* Banner section start  */
+
+.banner {
+  width: 74%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 167px;
+  margin: 0 auto;
+}
+.banner-content {
+  max-width: 520px;
+}
+.banner-title {
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 28px;
+}
+
+.banner-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 28px;
+}
+.button {
+  display: flex;
+  gap: 14px;
+}
+
+.download {
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+}
+.banner-img {
+  position: relative;
+}
+.box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 23px;
+  position: absolute;
+  left: -113px;
+  bottom: 63px;
+  background: rgba(48, 48, 48, 0.54);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+.box-1 .ball {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
+}
+
+.banner-img h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-top: 8px;
+}
+.tutorial-description p {
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.box-2 {
+    padding: 16px 24px;
+  position: absolute;
+  right: -77px;
+  bottom: 357px;
+  background: rgba(48, 48, 48, 0.54);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.box-2 .workout-description {
+  font-size: 0.82rem;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.65);
 }
