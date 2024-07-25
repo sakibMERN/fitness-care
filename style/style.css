@@ -198,6 +198,7 @@ nav .brand {
 
 .habit{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   max-width: 73%;
   margin: 0 auto;
@@ -212,14 +213,14 @@ nav .brand {
   font-size: 3rem;
   font-weight: 900;
   line-height: 120%;
-  /* text-align: center; */
+  text-align: center;
   margin-bottom: 14px;
 }
 .habit-description{
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
   line-height: 175%;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .features{
@@ -258,4 +259,49 @@ nav .brand {
   letter-spacing: 0.3px;
   text-align: center;
 }
+/* Habit section end  */
+
+
+/* Run an Extra Mile Section start */
+.run{
+  width: 74%;
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  gap: 165px;
+  border-radius: 18px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.run-content{
+  margin: 0 auto;
+  max-width: 443px;
+  padding: 40px 0;  
+}
+.run-title{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+.run-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
+  margin-bottom: 34px;
+}
+.run-image{
+  max-width: 366px;
+  padding: 30px;
+  
+}
+.run-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+/* Run an Extra Mile Section end */
 
