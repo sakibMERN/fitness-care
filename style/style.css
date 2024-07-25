@@ -34,6 +34,7 @@ body {
   background: rgb(230, 83, 60);
   border: none;
   border-radius: 42px;
+  cursor: pointer;
 }
 /* Header section start here  */
 .container {
@@ -196,6 +197,8 @@ nav .brand {
 /* Habit section start  */
 
 .habit{
+  display: flex;
+  justify-content: center;
   max-width: 73%;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -209,14 +212,14 @@ nav .brand {
   font-size: 3rem;
   font-weight: 900;
   line-height: 120%;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 14px;
 }
 .habit-description{
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
   line-height: 175%;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .features{
