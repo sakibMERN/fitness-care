@@ -275,9 +275,9 @@ nav .brand {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .run-content{
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: 443px;
-  padding: 40px 0;  
+  padding: 40px 0 40px 54px;  
 }
 .run-title{
   font-size: 3rem;
