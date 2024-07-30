@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-@import url('https://fonts.cdnfonts.com/css/miama');
+@import url("https://fonts.cdnfonts.com/css/miama");
 
 /* Common font family */
 .inter-font {
@@ -176,7 +176,7 @@ nav .brand {
   color: rgba(255, 255, 255, 0.65);
 }
 .box-2 {
-    padding: 16px 24px;
+  padding: 16px 24px;
   position: absolute;
   right: -77px;
   bottom: 357px;
@@ -196,7 +196,7 @@ nav .brand {
 
 /* Habit section start  */
 
-.habit{
+.habit {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,55 +204,54 @@ nav .brand {
   margin: 0 auto;
   margin-bottom: 100px;
 }
-.habit-content{
+.habit-content {
   max-width: 671px;
   margin: 0 auto;
   margin-bottom: 58px;
 }
-.habit-title{
+.habit-title {
   font-size: 3rem;
   font-weight: 900;
   line-height: 120%;
   text-align: center;
   margin-bottom: 14px;
 }
-.habit-description{
+.habit-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
   line-height: 175%;
   text-align: center;
 }
 
-.features{
+.features {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
-.feature-box{
+.feature-box {
   width: 231px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.feature-img{
+.feature-img {
   width: 180px;
   height: 180px;
   margin-bottom: 30px;
-  
 }
-.feature-img img{
+.feature-img img {
   width: 100%;
   border-radius: 100%;
 }
-.feature-title{
+.feature-title {
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 120%;
   text-align: center;
   margin-bottom: 6px;
 }
-.feature-description{
+.feature-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
   line-height: 18px;
@@ -261,9 +260,8 @@ nav .brand {
 }
 /* Habit section end  */
 
-
 /* Run an Extra Mile Section start */
-.run{
+.run {
   width: 74%;
   display: flex;
   justify-content: space-between;
@@ -273,29 +271,28 @@ nav .brand {
   margin-bottom: 100px;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.run-content{
+.run-content {
   max-width: 443px;
-  padding: 40px 0 40px 54px;  
+  padding: 40px 0 40px 54px;
 }
-.run-title{
+.run-title {
   font-size: 3rem;
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 14px;
 }
-.run-description{
+.run-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
   line-height: 1.5rem;
   letter-spacing: 0.3px;
   margin-bottom: 34px;
 }
-.run-image{
+.run-image {
   max-width: 366px;
   padding: 30px;
-  
 }
-.run-image img{
+.run-image img {
   width: 100%;
   height: 100%;
   object-fit: none;
@@ -305,21 +302,21 @@ nav .brand {
 /* Run an Extra Mile Section end */
 
 /* Training & Exercise section start here */
-.training{
+.training {
   width: 74%;
   margin: 0 auto;
   margin-bottom: 88px;
 }
-.training-content{
+.training-content {
   max-width: 671px;
 }
-.training-title{
+.training-title {
   font-size: 3rem;
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 14px;
 }
-.training-description{
+.training-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
   line-height: 24px;
@@ -327,102 +324,130 @@ nav .brand {
   margin-bottom: 55px;
   width: fit-content;
 }
-.training-image-container{
+.training-image-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 250px 250px;
   overflow: hidden;
 }
 
-
-.training-image-container img{
-  width: 100%;
-  height: 100%;
+.training-img-1 {
+  grid-column: span 3;
+  background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)),
+    url(../images/exercise1.jpg);
+  background-size: cover;
+  transform: scale(1.2);
+  position: relative;
+}
+.training-img-1 p {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 17px;
+  left: 15%;
+  bottom: 20%;
 }
 
-
-.training-img-1{
- grid-column: span 3;
- background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url(../images/exercise1.jpg);
- background-size: cover;
- transform: scale(1.2);
- 
- 
+.training-img-2 {
+  grid-column: span 6;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),
+    url(../images/exercise2.png);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: relative;
+}
+.training-img-2 p {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 17px;
+  left: 10%;
+  top: 20%;
 }
 
-/* .training-img-1 img{
- color: rgba(6, 255, 210, 0.5);
- transform: scale(1.2);
-} */
-.training-img-2{
- grid-column: span 6;
- background-image:linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(../images/exercise2.png);
- background-size: cover;
- background-position: center;
- z-index: 1;
- /* overflow: hidden; */
+.training-img-3 {
+  grid-column: span 3;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/exercise3.png);
+  background-size: cover;
+  transform: scale(1.1);
+  position: relative;
+}
+.training-img-3 p {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 17px;
+  left: 15%;
+  bottom: 20%;
+
 }
 
-/* .training-img-2 img{
- transform: scale(1.3);
-} */
-
-.training-img-3{
- grid-column: span 3;
- background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/exercise3.png);
- background-size: cover;
- transform: scale(1.1);
- /* overflow: hidden; */
+.training-img-4 {
+  grid-column: span 5;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/exercise4.png);
+  background-size: cover;
+  background-position: 10% 35%;
+  z-index: 1;
+  position: relative;
+}
+.training-img-4 p {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 17px;
+  right: 8%;
+  top: 10%;
 }
 
-/* .training-img-3 img{
- transform: scale(1.05);
-} */
-.training-img-4{
- grid-column: span 5;
- background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/exercise4.png);
- background-size: cover;
- background-position: 10% 35%;
- z-index: 1;
- /* transform: scale(.95); */
- /* overflow: hidden; */
+.training-img-5 {
+  grid-column: span 3;
+  background-image: linear-gradient(
+      rgba(66, 255, 0, 0.3),
+      rgba(66, 255, 0, 0.3)
+    ),
+    url(../images/exercise5.jpg);
+  background-size: cover;
+  transform: scale(1.2);
+  position: relative;
+}
+.training-img-5 p {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 17px;
+  left: 15%;
+  bottom: 20%;
 }
 
-/* .training-img-4 img{
- transform: scale(1.2);
- 
-} */
-.training-img-5{
- grid-column: span 3;
- background-image:linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url(../images/exercise5.jpg);
- background-size: cover;
- /* background-position: 0% 40%; */
- /* z-index: 1; */
- transform: scale(1.2);
- /* overflow: hidden; */
+.training-img-6 {
+  grid-column: span 4;
+  overflow: hidden;
+  background-image: linear-gradient(
+      rgba(0, 71, 255, 0.3),
+      rgba(0, 71, 255, 0.3)
+    ),
+    url(../images/exercise6.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: relative;
 }
-
-/* .training-img-5 img{
- transform: scale(1.1);
- 
-} */
-.training-img-6{
- grid-column: span 4;
- overflow: hidden;
- background-image:linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url(../images/exercise6.jpg);
- background-size: cover;
- background-position: center;
- /* background-position: 10% 60%; */
- /* transform: scale(1.2); */
- /* margin-top: 4.5%; */
- z-index: 1;
- 
+.training-img-6 p {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 17px;
+  left: 10%;
+  bottom: 15%;
 }
-
-/* .training-img-6 img{
- transform: scale(1.2);
-} */
-
 
 /* Training & Exercise section end here */
-
