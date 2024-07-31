@@ -168,5 +168,26 @@
 
 
 /* BMI calculator section start  */
-
+@media screen and (max-width: 576px) {
+  .bmi-data{
+    width: 100%;
+    padding-top: 34px;
+    flex-direction: column;
+  }
+  .bmi-table {
+    width: 100%;
+  }
+  .table-title{
+    margin-bottom: 23px;
+  }
+  table {
+    margin-bottom: 42px;
+  }
+  .bmi-calculator {
+    width: 100%;
+  }
+  .bmi-calculator button{
+    width: 224px;
+  }
+}
 /* BMI calculator section start  */
