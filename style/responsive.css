@@ -199,3 +199,21 @@
   }
 }
 /* BMI calculator section end  */
+
+
+/* Meet out team section start  */
+@media screen and (max-width:576px){
+  .team-container{
+    width: 100%;
+  }
+
+  .team-content{
+    margin-bottom: 54px;
+  }
+  .team-card-container{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+  }
+  
+}
+/* Meet out team section end  */

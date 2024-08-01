@@ -628,7 +628,8 @@ select#activity option {
 /* Card section  */
 .team-card-container {
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.1);display: grid;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 300px 300px;
   gap: 20px;
