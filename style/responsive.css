@@ -117,6 +117,7 @@
   .training {
     width: 100%;
     margin: 0;
+    margin-bottom: 30px;
   }
   .training-image-container {
     grid-template-columns: repeat(13, 1fr);
@@ -169,9 +170,15 @@
 
 /* BMI calculator section start  */
 @media screen and (max-width: 576px) {
+  .bmi-content{
+    margin-bottom: 32px;
+  }
+  .bmi-container {
+    margin-bottom: 66px;
+  }
   .bmi-data{
     width: 100%;
-    padding-top: 34px;
+    padding: 0;
     flex-direction: column;
   }
   .bmi-table {
@@ -188,6 +195,7 @@
   }
   .bmi-calculator button{
     width: 224px;
+    margin-bottom: 43px;
   }
 }
-/* BMI calculator section start  */
+/* BMI calculator section end  */
