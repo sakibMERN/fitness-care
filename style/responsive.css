@@ -25,7 +25,8 @@
   .banner {
     width: 100%;
     flex-direction: column;
-    padding-left: 5px;
+    /* padding-left: 5px; */
+    /* padding: 5px; */
   }
   .banner-title {
     font-size: 2.5rem;
@@ -33,9 +34,7 @@
   .banner-description {
     padding-right: 100px;
   }
-  .banner-img {
-    width: 100%;
-  }
+
   #vanish {
     display: none;
   }
@@ -48,13 +47,36 @@
   .hamburger {
     display: block;
   }
+  .banner-img {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+
+
   .box-1 {
-    left: 12px;
-    bottom: 250px;
+    padding: 14px 18px;
+    left: 0%;
+    bottom: 42%;
+  }
+  .tutorial{
+    font-size: 1.125rem;
+    line-height: 18px;
+  }
+  .box-1 .ball {
+    width: 30px;
+    height: 30px;
   }
   .box-2 {
-    right: 0px;
-    bottom: 420px;
+    padding: 12px 18px;
+    right: 0%;
+    bottom: 75%;
+  }
+  .workout-title{
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-bottom: 3px;
+    letter-spacing: 0px;
   }
 }
 
@@ -65,7 +87,6 @@
     margin: 0 auto;
     margin-bottom: 40px;
     width: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
   }
@@ -84,8 +105,11 @@
 /* Run an Extra Mile Section make responsive */
 
 @media screen and (max-width: 576px) {
-  main {
+  /* main {
     padding: 20px;
+  } */
+  .run-container {
+    padding: 0 20px;
   }
   .run {
     width: 100%;
@@ -114,6 +138,9 @@
 
 /* Training & Exercise section make responsive */
 @media screen and (max-width: 576px) {
+  .training-wrapper {
+    padding: 0 20px;
+  }
   .training {
     width: 100%;
     margin: 0;
@@ -123,13 +150,13 @@
     grid-template-columns: repeat(13, 1fr);
     grid-template-rows: 200px 200px 200px;
   }
-  .training-content{
+  .training-content {
     padding-right: 22px;
   }
   .training-title {
     font-size: 2rem;
   }
-  .training-description{
+  .training-description {
     margin-bottom: 38px;
   }
   .training-img-1 {
@@ -157,34 +184,40 @@
   }
   .training-img-6 {
     grid-column: span 6;
-    margin-top: -11%;
+    margin-top: -14%;
     /* z-index: 1; */
   }
-  .training-img-6 P{
+  .training-img-6 P {
     right: 5%;
     top: 10%;
   }
 }
 /* Training & Exercise section make responsive  end*/
 
-
 /* BMI calculator section start  */
 @media screen and (max-width: 576px) {
-  .bmi-content{
+  /* main {
+    padding: 0;
+  } */
+  .bmi-wrapper {
+    /* padding: 0 20px; */
+  }
+  .bmi-content {
+    padding: 0 20px;
     margin-bottom: 32px;
   }
   .bmi-container {
     margin-bottom: 66px;
   }
-  .bmi-data{
+  .bmi-data {
     width: 100%;
-    padding: 0;
+    padding: 34px 20px 43px 20px;
     flex-direction: column;
   }
   .bmi-table {
     width: 100%;
   }
-  .table-title{
+  .table-title {
     margin-bottom: 23px;
   }
   table {
@@ -193,28 +226,57 @@
   .bmi-calculator {
     width: 100%;
   }
-  .bmi-calculator button{
+  .bmi-calculator button {
     width: 224px;
     margin-bottom: 43px;
   }
 }
 /* BMI calculator section end  */
 
-
 /* Meet out team section start  */
-@media screen and (max-width:576px){
-  .team-container{
+@media screen and (max-width: 576px) {
+  .team-container {
     width: 100%;
+    padding: 20px;
     margin-bottom: 66px;
   }
 
-  .team-content{
+  .team-content {
+    width: 90%;
     margin-bottom: 54px;
   }
-  .team-card-container{
+  .team-title {
+    font-size: 2rem;
+  }
+  .team-card-container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 300px 300px 300px 300px 300px 300px;
   }
-  
 }
 /* Meet out team section end  */
+
+/* Footer section start here  */
+@media screen and (max-width:576px) {
+  footer {
+    padding: 44px 20px 0 20px;
+  }
+  .footer-container {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 77px;
+  }
+  .conclusion {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .get-started {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .copyright {
+    width: 100%;
+  }
+}
+
+/* Footer section end here  */

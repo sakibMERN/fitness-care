@@ -149,9 +149,11 @@ nav .brand {
   gap: 12px;
   padding: 20px 23px;
   position: absolute;
-  left: -113px;
-  bottom: 63px;
-  background: rgba(48, 48, 48, 0.54);
+  /* left: -113px; */
+  left: -30%;
+  /* bottom: 63px; */
+  bottom: 13%;
+  background: rgba(48, 48, 48, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
 }
@@ -162,14 +164,14 @@ nav .brand {
   background: rgb(230, 83, 60);
 }
 
-.banner-img h4 {
+.tutorial, .workout-title {
   font-size: 1.5rem;
   font-weight: 900;
   line-height: 24px;
   letter-spacing: 0.3px;
   margin-top: 8px;
 }
-.tutorial-description p {
+.tutorial-description {
   font-size: 1rem;
   line-height: 24px;
   letter-spacing: 0.5px;
@@ -185,7 +187,12 @@ nav .brand {
   border-radius: 12px;
 }
 
-.box-2 .workout-description {
+.workout-title{
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+.workout-description {
   font-size: 0.82rem;
   line-height: 20px;
   letter-spacing: 1px;
@@ -200,7 +207,7 @@ nav .brand {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 73%;
+  max-width: 74%;
   margin: 0 auto;
   margin-bottom: 100px;
 }
