@@ -205,6 +205,7 @@
 @media screen and (max-width:576px){
   .team-container{
     width: 100%;
+    margin-bottom: 66px;
   }
 
   .team-content{

@@ -634,9 +634,8 @@ select#activity option {
   grid-template-rows: 300px 300px;
   gap: 20px;
   padding: 20px;
-
 }
-.card{
+.card {
   position: relative;
   grid-column: span 4;
   width: 100%;
@@ -646,50 +645,121 @@ select#activity option {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-
-.card-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer1.png");
+.card-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/trainer1.png");
 
   background-position-x: 50%;
   background-position-y: 10%;
 }
 
-.card-2{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer2.png");
+.card-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/trainer2.png");
   background-position-y: 20%;
 }
 
-.card-3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer3.png");
+.card-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/trainer3.png");
   background-position-y: 20%;
 }
 
-.card-4{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer4.png");
+.card-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/trainer4.png");
   background-position: 20%;
 }
 
-.card-5{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer5.png");
+.card-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/trainer5.png");
   background-position-y: 30%;
 }
 
-.card-6{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/trainer6.png");
+.card-6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/trainer6.png");
 }
-.card-info{
+.card-info {
   position: absolute;
   left: 6%;
   bottom: 6%;
 }
-.info-title{
+.info-title {
   font-size: 1.25rem;
   font-weight: 900;
   line-height: 120%;
 }
-.role{
+.role {
   font-size: 0.875rem;
   line-height: 120%;
   color: rgba(255, 255, 255, 0.5);
 }
 /* Meet out team section end  */
+
+/* Footer section start here  */
+footer {
+  background: rgba(255, 255, 255, 0.1);
+  padding-top: 60px;
+}
+.footer-container {
+  width: 74%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 79px;
+}
+.conclusion {
+  width: 42%;
+}
+.conclusion-title {
+  font-size: 4.4rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 120%;
+  margin-bottom: 20px;
+  color: rgba(230, 83, 60, 1);
+}
+.conclusion-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.get-started{
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+.favorite h4{
+font-size: 2rem;
+font-weight: 700;
+line-height: 120%;
+margin-bottom: 39px;
+}
+.service{
+color: rgba(255, 255, 255, 0.5);
+font-size: 1.43rem;
+font-weight: 400;
+line-height: 120%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.copyright{
+  width: 74%;
+  margin: 0 auto;
+}
+.copyright hr{
+  color: rgba(255, 255, 255, 0.1);;
+}
+
+.copyright h4{
+  text-align: center;
+  margin: 36px auto;
+}
+/* Footer section end here  */
