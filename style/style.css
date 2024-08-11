@@ -458,6 +458,85 @@ nav .brand {
 
 /* Training & Exercise section end here */
 
+/* Explore our program section start */
+
+.our-program{
+  width: 74%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.program-content{
+  width: 50%;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  margin-bottom: 50px;
+}
+.program-title{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+.program-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.857rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.3px;
+}
+.program-container{
+  display: flex;
+  justify-content: space-between;
+}
+.program-card{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+  
+}
+.fitcher-1{
+
+  background-color: rgb(18, 12, 41);
+}
+.fitcher-2{
+  background-color: rgb(65, 65, 16);
+}
+.fitcher-3{
+  background-color: rgb(12, 41, 36);
+}
+.fitcher-4{
+  background-color: rgb(31, 41, 12);
+}
+.program-card img{
+  width: 60px;
+  margin-bottom: 15px;
+}
+.program-card-title{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: 120%;
+margin-bottom: 10px;
+}
+.program-card-description{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 0.857rem;
+line-height: 1.125rem;
+letter-spacing: 0.3px;
+}
+.program-icon{
+  width: 40%;
+  /* justify-self: end; */
+  /* align-self: self-end; */
+}
+#arrow{
+  font-size: 40px;
+}
+/* Explore our program section end */
+
 /* BMI calculator section start  */
 
 .bmi-content {
@@ -535,6 +614,7 @@ td:first-child {
 td:last-child {
   padding: 14px 35px;
 }
+
 
 /* BMI Calculator  */
 
