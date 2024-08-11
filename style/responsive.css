@@ -197,7 +197,35 @@
 /* Training & Exercise section make responsive  end*/
 
 /* Explore our program section start */
-
+@media screen and (max-width:576px) {
+  .our-program{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .program-content{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .program-container{
+    padding: 20px;
+  }
+  .program-title{
+    font-size: 2rem;
+  }
+  .program-container{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .program-card{
+    width: 100%;
+  }
+  .program-card:hover{
+    transform: scale(105%) ;
+  }
+}
 /* Explore our program section end */
 
 /* BMI calculator section start  */
