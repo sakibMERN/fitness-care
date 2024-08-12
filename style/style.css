@@ -122,7 +122,13 @@ nav .brand {
   line-height: 120%;
   margin-bottom: 28px;
 }
-
+#special {
+  font-family: Miama;
+  font-weight: 400;
+  line-height: 120%;
+  font-style: italic;
+  color: rgb(230, 83, 60);
+}
 .banner-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
@@ -164,7 +170,8 @@ nav .brand {
   background: rgb(230, 83, 60);
 }
 
-.tutorial, .workout-title {
+.tutorial,
+.workout-title {
   font-size: 1.5rem;
   font-weight: 900;
   line-height: 24px;
@@ -187,7 +194,7 @@ nav .brand {
   border-radius: 12px;
 }
 
-.workout-title{
+.workout-title {
   font-size: 2.5rem;
   margin-bottom: 5px;
   letter-spacing: 1px;
@@ -343,12 +350,11 @@ nav .brand {
   background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)),
     url(../images/exercise1.jpg);
   background-size: cover;
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   position: relative;
 }
 .training-img-1 p {
   position: absolute;
-  color: rgb(0, 0, 0);
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 17px;
@@ -367,12 +373,11 @@ nav .brand {
 }
 .training-img-2 p {
   position: absolute;
-  color: rgb(255, 255, 255);
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 17px;
-  left: 10%;
-  top: 20%;
+  left: 5%;
+  top: 15%;
 }
 
 .training-img-3 {
@@ -380,17 +385,18 @@ nav .brand {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/exercise3.png);
   background-size: cover;
-  transform: scale(1.1);
+  background-position: center;
+  /* background-position-y: 10%; */
+  /* transform: scale(1.1); */
   position: relative;
 }
 .training-img-3 p {
   position: absolute;
-  color: rgb(255, 255, 255);
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 17px;
-  left: 15%;
-  bottom: 20%;
+  left: 10%;
+  bottom: 15%;
 }
 
 .training-img-4 {
@@ -398,13 +404,15 @@ nav .brand {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/exercise4.png);
   background-size: cover;
-  background-position: 10% 35%;
+  background-position: center;
+/* transform: scale(1.1); */
+  /* background-position: center; */
+  background-position-x: 30px;
   z-index: 1;
   position: relative;
 }
 .training-img-4 p {
   position: absolute;
-  color: rgb(255, 255, 255);
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 17px;
@@ -420,17 +428,16 @@ nav .brand {
     ),
     url(../images/exercise5.jpg);
   background-size: cover;
-  transform: scale(1.2);
+  background-position: center;
   position: relative;
 }
 .training-img-5 p {
   position: absolute;
-  color: rgb(255, 255, 255);
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 17px;
-  left: 15%;
-  bottom: 20%;
+  left: 10%;
+  bottom: 15%;
 }
 
 .training-img-6 {
@@ -448,11 +455,10 @@ nav .brand {
 }
 .training-img-6 p {
   position: absolute;
-  color: rgb(255, 255, 255);
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 17px;
-  left: 10%;
+  left: 8%;
   bottom: 15%;
 }
 
@@ -460,28 +466,28 @@ nav .brand {
 
 /* Explore our program section start */
 
-.our-program{
+.our-program {
   width: 74%;
   margin: 0 auto;
   margin-bottom: 88px;
 }
-.program-content{
+.program-content {
   width: 50%;
   margin-bottom: 30px;
 }
-.program-title{
+.program-title {
   font-size: 3rem;
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 14px;
 }
-.program-description{
+.program-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.857rem;
   line-height: 1.125rem;
   letter-spacing: 0.3px;
 }
-.program-container{
+.program-container {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   box-shadow: 4px 3px 5px slateblue;
@@ -489,7 +495,7 @@ nav .brand {
   display: flex;
   justify-content: space-around;
 }
-.program-card{
+.program-card {
   width: 23%;
   display: flex;
   flex-direction: column;
@@ -498,48 +504,51 @@ nav .brand {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   padding: 20px;
-  
 }
-.program-card:hover{
-  transform: scale(110%) ;
+.program-card:hover {
+  transform: scale(110%);
   transition: 0.5s ease-in-out;
   box-shadow: 0px 3px yellowgreen;
 }
-.fitcher-1{
-
+.fitcher-1 {
   background-color: rgb(18, 12, 41);
 }
-.fitcher-2{
+.fitcher-2 {
   background-color: rgb(57, 57, 14);
 }
-.fitcher-3{
+.fitcher-3 {
   background-color: rgb(12, 41, 36);
 }
-.fitcher-4{
+.fitcher-4 {
   background-color: rgb(31, 41, 12);
 }
-.program-card img{
+.fitcher-card{
+  max-height: 215px;
+  overflow: hidden;
+
+}
+.program-card img {
   width: 60px;
   margin-bottom: 15px;
 }
-.program-card-title{
-font-size: 1.125rem;
-font-weight: 600;
-line-height: 120%;
-margin-bottom: 10px;
+.program-card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 10px;
 }
-.program-card-description{
+.program-card-description {
   color: rgba(255, 255, 255, 0.5);
-font-size: 0.857rem;
-line-height: 1.125rem;
-letter-spacing: 0.3px;
+  font-size: 0.857rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.3px;
 }
-.program-icon{
+.program-icon {
   width: 40%;
   /* justify-self: end; */
   /* align-self: self-end; */
 }
-#arrow{
+#arrow {
   font-size: 40px;
 }
 /* Explore our program section end */
@@ -621,7 +630,6 @@ td:first-child {
 td:last-child {
   padding: 14px 35px;
 }
-
 
 /* BMI Calculator  */
 
@@ -808,7 +816,6 @@ footer {
 }
 .conclusion {
   width: 42%;
-
 }
 .conclusion-title {
   font-size: 4.4rem;
@@ -826,37 +833,36 @@ footer {
   letter-spacing: 0.3px;
 }
 
-.get-started{
+.get-started {
   width: 48%;
   display: flex;
   justify-content: space-between;
 }
-.favorite h4{
-font-size: 2rem;
-font-weight: 700;
-line-height: 120%;
-margin-bottom: 39px;
+.favorite h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 39px;
 }
-.service{
-color: rgba(255, 255, 255, 0.5);
-font-size: 1.43rem;
-font-weight: 400;
-line-height: 120%;
-display: flex;
-flex-direction: column;
-gap: 20px;
+.service {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.43rem;
+  font-weight: 400;
+  line-height: 120%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.copyright{
+.copyright {
   width: 74%;
   margin: 0 auto;
-  
 }
-hr{
+hr {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
-.copyright h4{
+.copyright h4 {
   text-align: center;
   margin: 36px auto;
   color: rgba(255, 255, 255, 0.5);
