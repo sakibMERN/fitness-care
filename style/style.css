@@ -44,7 +44,7 @@ body {
     rgba(119, 119, 119, 0.3) 100%
   );
   padding-top: 57px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 /* Nav section start  */
@@ -216,7 +216,7 @@ nav .brand {
   justify-content: center;
   max-width: 74%;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 .habit-content {
   max-width: 63%;
@@ -864,7 +864,8 @@ hr {
 
 .copyright h4 {
   text-align: center;
-  margin: 36px auto;
+  margin: 0 auto;
+  margin-top: 10px;
   color: rgba(255, 255, 255, 0.5);
 }
 /* Footer section end here  */
