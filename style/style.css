@@ -219,7 +219,7 @@ nav .brand {
   margin-bottom: 100px;
 }
 .habit-content {
-  max-width: 671px;
+  max-width: 63%;
   margin: 0 auto;
   margin-bottom: 58px;
 }
@@ -450,7 +450,7 @@ nav .brand {
     url(../images/exercise6.jpg);
   background-size: cover;
   background-position: center;
-  z-index: 1;
+  /* z-index: 1; */
   position: relative;
 }
 .training-img-6 p {
@@ -469,11 +469,11 @@ nav .brand {
 .our-program {
   width: 74%;
   margin: 0 auto;
-  margin-bottom: 88px;
+  margin-bottom: 120px;
 }
 .program-content {
   width: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .program-title {
   font-size: 3rem;
@@ -558,7 +558,7 @@ nav .brand {
 .bmi-content {
   max-width: 671px;
   margin: 0 auto;
-  margin-bottom: 88px;
+  margin-bottom: 50px;
 }
 .bmi-title {
   font-size: 3rem;
